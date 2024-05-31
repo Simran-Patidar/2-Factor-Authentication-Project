@@ -37,8 +37,11 @@ To set up the project locally, follow these steps:
 
 ## Technologies Used
 **Node.js:** Server-side JavaScript runtime.
+
 **Express:** Web framework for Node.js.
+
 **Speakeasy:** Library for generating and verifying OTPs.
+
 **Dotenv:** Module to load environment variables from a .env file.
 
 
