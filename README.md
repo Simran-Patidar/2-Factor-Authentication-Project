@@ -7,15 +7,15 @@ Two-Factor Authentication (2FA) enhances the security of user accounts by requir
 ## How 2FA Works
 1. **Secret Generation:**
    
-When a user enables 2FA, a unique secret key is generated for them. This secret key is shared between the server and the user's authenticator app.
+   When a user enables 2FA, a unique secret key is generated for them. This secret key is shared between the server and the user's authenticator app.
 
 2. **Token Generation:**
    
-The authenticator app uses the secret key to generate a TOTP, which changes every 30 seconds. This token is displayed to the user.
+   The authenticator app uses the secret key to generate a TOTP, which changes every 30 seconds. This token is displayed to the user.
 
 3. **Token Verification:**
    
-When the user logs in, they provide their username, password, and the current token from their authenticator app. The server verifies the token using the shared secret key.
+   When the user logs in, they provide their username, password, and the current token from their authenticator app. The server verifies the token using the shared secret key.
 
 ## Installation
 To set up the project locally, follow these steps:
